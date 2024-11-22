@@ -18,6 +18,6 @@ const amountOfSubstanceVariables_2 = [
 
 </script>
 
-<Formula :variables="amountOfSubstanceVariables_1" content="v = \frac{N}{N_A}"/>
+<Formula :variables="amountOfSubstanceVariables_1" content="v = \frac{N}{N_{\!A}}"/>
 ---
-<Formula :variables="amountOfSubstanceVariables_2" content="v = \frac{N \cdot m_0}{N_A \cdot m_0} = \frac{m}{M_r}"/>
+<Formula :variables="amountOfSubstanceVariables_2" content="v = \frac{N \cdot m_0}{N_{\!A} \cdot m_0} = \frac{m}{M}"/>

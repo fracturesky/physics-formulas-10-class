@@ -20,9 +20,30 @@ export default defineConfig({
           { text: "Концентрация частиц", link: "particle_concentration" },
           { text: "Количество вещества", link: "amount_of_substance" },
           { text: "Количество частиц", link: "amount_of_particles" },
+          { text: "Температура по шкале Кельвина", link: "kelvin_temperature" },
+          {
+            text: "Среднее значение квадратов скоростей",
+            link: "avg_velocity_squared",
+          },
+          {
+            text: "Среднеквадратичная скорость",
+            link: "root_mean_square_velocity",
+          },
           {
             text: "Средняя кинетическая энергия",
-            link: "average_kinetic_energy",
+            link: "avg_kinetic_energy",
+          },
+          {
+            text: "Основное уравнение МКТ",
+            link: "main_equation_of_molecular_kinetic_theory",
+          },
+          {
+            text: "Универсальная газовая постоянная",
+            link: "universal_gas_constant",
+          },
+          {
+            text: "Уравнение Клапейрона",
+            link: "clapeyron_equation",
           },
         ],
       },

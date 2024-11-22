@@ -24,7 +24,7 @@ export const commonVariables = {
     link: "particle_concentration",
   },
   avogadro_constant: {
-    variable: "N_A",
+    variable: "N_{\\!A}",
     units: "1/моль",
     quantity: "Постоянная Авогадро",
   },
@@ -46,29 +46,50 @@ export const commonVariables = {
     units: "кг",
   },
   molar_mass: {
-    variable: "M_r",
+    variable: "M",
     quantity: "Молярная масса",
     units: "кг/моль",
   },
-  average_kinetic_energy: {
+  avg_particle_kinetic_energy: {
     variable: "E_к",
     quantity: "Средняя кинетическая энергия частицы",
     units: "Дж",
-    link: "average_kinetic_energy",
+    link: "avg_kinetic_energy",
   },
-  avg_square_velocity: {
+  avg_particle_velocity_squared: {
     variable: "\\langle v^2 \\rangle",
     quantity: "Среднее значение квадратов скоростей частиц",
     units: "м^2/с^2",
   },
+  root_mean_square_particle_velocity: {
+    variable: "\\langle v_{\\text{кв}} \\rangle",
+    quantity: "Среднеквадратичная скорость частиц",
+    units: "м/с",
+  },
+
   boltzmann_constant: {
     variable: "k",
     quantity: "Постоянная Больцмана",
-    units: "Дж/К"
+    units: "Дж/К",
   },
   kelvin_temperature: {
     variable: "T",
     quantity: "Температура",
-    units: "К"
-  }
+    units: "К",
+  },
+  pressure: {
+    variable: "p",
+    quantity: "Давление идеального газа",
+    units: "Па",
+  },
+  temperature: {
+    variable: "t",
+    quantity: "Температура",
+    units: "°C",
+  },
+  universal_gas_constant: {
+    variable: "R",
+    quantity: "Универсальная газовая постоянная",
+    units: "\\frac{Дж}{моль \\cdot К}",
+  },
 };

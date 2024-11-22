@@ -10,4 +10,4 @@ const amountOfParticles = [
 ];
 </script>
 
-<Formula :variables="amountOfParticles" content="N = \frac{m}{M_r} \cdot N_A \Rightarrow v \cdot N_A"/>
+<Formula :variables="amountOfParticles" content="N = \frac{m}{M} N_{\!A} \Rightarrow v N_{\!A}"/>
